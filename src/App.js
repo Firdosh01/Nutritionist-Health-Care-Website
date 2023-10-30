@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/common/Navbar';
 
 function App() {
   return (
-    <div>
-      <h1>Nutritionist Health Care Website</h1>
+    <div className='bg-[#EEEEEE] w-screen min-h-screen'>
+      <Navbar />
     </div>
   );
 }
