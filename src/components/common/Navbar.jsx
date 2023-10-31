@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <div className="bg-[#1A3129]">
       <div className="w-11/12 max-w-screen-xl px-2 mx-auto">
-        <div className="flex items-center justify-between py-2">
+        <div className="flex items-center justify-between gap-5 py-2">
          
           <Link to="/">
             <div className="flex items-center gap-2">
