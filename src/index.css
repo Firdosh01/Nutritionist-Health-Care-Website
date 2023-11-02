@@ -13,3 +13,9 @@
     overflow-x: hidden;
     font-family: 'Urbanist', sans-serif;
   }
+  a{
+    font-family: 'Urbanist', sans-serif;
+  }
+  .active{
+    color: #CBEA7B;
+  }
