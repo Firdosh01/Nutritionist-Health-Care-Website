@@ -19,17 +19,22 @@ export default function HomeBlog() {
                     <p className="py-4">{blog.desc}</p>
                   </div>
                   <div>
-                    <div className="flex items-center justify-between bg-[#FAFDF2] border border-[#EEF8D3] px-3 rounded py-2">
+                    <div className="flex md:items-center md:flex-row flex-col md:justify-between bg-[#FAFDF2] border border-[#EEF8D3] px-3 rounded py-2">
                       <div className="flex items-center gap-2">
                         <img src={blog.icon} alt="" />
                         <div>
-                          <span>{blog.name}</span>
-                          <p>{blog.date}</p>
+                          <span className="font-semibold">{blog.name}</span>
+                          <p className="text-[14px] text-[#59595A]">{blog.date}</p>
                         </div>
                       </div>
-                      <div className="flex items-center gap-1">
-                        <img src={blog.loveIcon} alt="" />
-                        <img src={blog.cart} alt="" />
+                      <div className="flex items-center justify-end gap-1 mt-3 md:mt-0">
+                        <div className="bg-[#F6FBE9] border border-[#EEF8D3] p-2 rounded-sm">
+                          <img src={blog.loveIcon} alt="" />
+                        </div>
+
+                        <div className="bg-[#F6FBE9] border border-[#EEF8D3] p-2 rounded-sm">
+                          <img src={blog.cart} alt="" />
+                        </div>
                       </div>
                     </div>
                   </div>
