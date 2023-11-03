@@ -22,8 +22,8 @@ export default function Footer() {
       <div className="w-11/12 max-w-screen-xl px-2 mx-auto">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src={Frame} alt="" />
-            <img src={Nutritionist} alt="" />
+            <img src={Frame} alt="" className=" max-w-[20%]" />
+            <img src={Nutritionist} alt="" className=" md:max-w-[80%] max-w-[50%]" />
           </div>
 
           <div className="flex items-center gap-3">
@@ -44,8 +44,8 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="flex items-center gap-2">
-            <span className="text-[16px]  font-medium text-[#FAFDF2]">
+          <div className="flex items-center gap-1">
+            <span className="md:text-[16px] text-[12px]  font-medium text-[#FAFDF2]">
               Got To Top
             </span>
             <div
