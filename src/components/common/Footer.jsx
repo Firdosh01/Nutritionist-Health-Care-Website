@@ -9,6 +9,14 @@ import addressIcon from "../../assets/Icons/address Icon.png";
 import mailIcon from "../../assets/Icons/mail Icon.png";
 
 export default function Footer() {
+  
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // This makes the scroll smooth
+    });
+  };
+  
   return (
     <footer className="bg-[#1A3129] py-7">
       <div className="w-11/12 max-w-screen-xl px-2 mx-auto">
@@ -41,7 +49,8 @@ export default function Footer() {
               Got To Top
             </span>
             <div
-              className="bg-[#234338] rounded-full p-1 "
+              className="bg-[#234338] rounded-full p-1  cursor-pointer"
+              onClick={scrollToTop}
             >
               <img src={arrowTop} alt="" />
             </div>
