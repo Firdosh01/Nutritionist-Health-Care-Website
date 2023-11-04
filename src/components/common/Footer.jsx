@@ -45,7 +45,7 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-1">
-            <span className="md:text-[16px] text-[12px]  font-medium text-[#FAFDF2]">
+            <span className="md:text-[16px] text-[14px]  font-medium text-[#FAFDF2]">
               Got To Top
             </span>
             <div
