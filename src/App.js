@@ -9,6 +9,7 @@ import Process from './components/Pages/Process';
 import Pricing from './components/Pages/Pricing';
 import Blog from './components/Pages/Blog';
 import Footer from './components/common/Footer';
+import Contact from './components/Pages/Contact';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='process' element={<Process />} />
         <Route path='pricing' element={<Pricing />} />
         <Route path='blog' element={<Blog />} />
+        <Route path='contact' element={<Contact />} />
       </Routes>
       <Footer />
     </div>

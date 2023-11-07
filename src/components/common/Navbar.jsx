@@ -28,7 +28,9 @@ export default function Navbar() {
                 );
               })}
             </ul>
+            <Link to={"/contact"}>
             <CTABtn children={"Contact Us"} active={true} />
+            </Link>
           </div>
           
         </div>
