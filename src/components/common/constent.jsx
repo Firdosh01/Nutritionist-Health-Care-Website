@@ -38,6 +38,22 @@ import knife from '../../assets/Process/fork.knife.png'
 import graduationcap from '../../assets/Process/graduationcap.fill.png'
 import pin from '../../assets/Process/pin.fill.png'
 
+// blog page images 
+
+import bpImg1 from '../../assets/Blog/Image (25).png'
+import bpImg2 from '../../assets/Blog/Image (26).png'
+import bpImg3 from '../../assets/Blog/Image (27).png'
+import bpImg4 from '../../assets/Blog/Image (28).png'
+import bpImg5 from '../../assets/Blog/Image (29).png'
+import bpImg6 from '../../assets/Blog/Image (30).png'
+import bpImg7 from '../../assets/Blog/Image (31).png'
+import bpImg8 from '../../assets/Blog/Image (32).png'
+import bpImg9 from '../../assets/Blog/Image (33).png'
+import bpImg10 from '../../assets/Blog/Image (34).png'
+import bpImg11 from '../../assets/Blog/Image (35).png'
+import bpImg12 from '../../assets/Blog/Image (37).png'
+
+
 export const navigation = [
     {
         id: 1,
@@ -311,5 +327,92 @@ export const Faq = [
         id: 6,
         title: "Are the meal plans and recipes provided suitable for vegetarians or vegans?",
         desc: "Personalized nutrition coaching involves creating a customized nutrition plan based on your unique goals, preferences, and dietary requirements. Our team of experts will work closely with you to develop a plan that fits your lifestyle and helps you achieve optimal health and wellness."
+    },
+]
+
+export const BlogPage = [
+    {
+        id: 1,
+        image: bpImg1,
+        heading: "Weight Loss Tips",
+        subHeading: "10 Effective Strategies for Sustainable Weight Loss",
+        desc: "Discover proven strategies for long-term weight loss success. Learn how to create healthy habits, set achievable goals, and make sustainable lifestyle changes.",
+    },
+    {
+        id: 2,
+        image: bpImg2,
+        heading: "Weight Loss Tips",
+        subHeading: "The Role of Portion Control in Weight Management",
+        desc: "Learn how portion control can help you manage your weight effectively. Find practical tips for controlling portion sizes and avoiding overeating.",
+    },
+    {
+        id: 3,
+        image: bpImg3,
+        heading: "Weight Loss Tips",
+        subHeading: "Understanding Emotional Eating and How to Overcome It",
+        desc: "Explore the connection between emotions and eating habits. Get valuable insights on how to identify emotional triggers and develop healthier coping mechanisms.",
+    },
+    {
+        id: 4,
+        image: bpImg4,
+        heading: "Weight Loss Tips",
+        subHeading: "How to Stay Motivated on Your Weight Loss Journey",
+        desc: "Explore the connection between emotions and eating habits. Get valuable insights on how to identify emotional triggers and develop healthier coping mechanisms.",
+    },
+    {
+        id: 5,
+        image: bpImg5,
+        heading: "Healthy Eating",
+        subHeading: "The Benefits of a Plant-Based Diet for Overall Health",
+        desc: "Explore the advantages of adopting a plant-based diet. Learn about the potential health benefits, nutrient-rich plant-based foods, and tips for transitioning to a plant-based lifestyle."
+    },
+    {
+        id: 6,
+        image: bpImg6,
+        heading: "Healthy Eating",
+        subHeading: "Understanding Macronutrients: Carbohydrates, Proteins, and Fats",
+        desc: "Get a comprehensive overview of macronutrients and their role in a balanced diet. Discover the best sources of each macronutrient and how to incorporate them into your meals."
+    },
+    {
+        id: 7,
+        image: bpImg7,
+        heading: "Fitness and Exercise",
+        subHeading: "Cardio vs. Strength Training: Which Is Better for Weight Loss?",
+        desc: "Explore the benefits of both cardio and strength training exercises for weight loss. Find out how to combine them effectively to maximize your results."
+    },
+    {
+        id: 8,
+        image: bpImg8,
+        heading: "Fitness and Exercise",
+        subHeading: "Building a Home Workout Routine: Tips and Best Practices",
+        desc: "Discover how to create an effective workout routine at home. Learn about equipment options, exercise techniques, and ways to stay motivated."
+    },
+    {
+        id: 9,
+        image: bpImg9,
+        heading: "Fitness and Exercise",
+        subHeading: "Cardio vs. Strength Training: Which Is Better for Weight Loss?",
+        desc: "Explore the benefits of both cardio and strength training exercises for weight loss. Find out how to combine them effectively to maximize your results."
+    },
+    {
+        id: 10,
+        image: bpImg10,
+        heading: "Fitness and Exercise",
+        subHeading: "Building a Home Workout Routine: Tips and Best Practices",
+        desc: "Discover how to create an effective workout routine at home. Learn about equipment options, exercise techniques, and ways to stay motivated.",
+    },
+    {
+        id: 11,
+        image: bpImg11,
+        heading: "Recipes and Meal Planning",
+        subHeading: "Healthy and Flavorful Lunch Ideas for a Busy Lifestyle",
+        desc: "Discover a variety of tasty and nutritious lunch options that are perfect for those with busy schedules. These recipes are quick to make and packed with essential nutrients.",
+    },
+    {
+        id: 12,
+        image: bpImg12,
+        heading: "Recipes and Meal Planning",
+        subHeading: "Satisfying and Nutritious Dinner Recipes for Weight Loss",
+        desc: "Find a collection of flavorful dinner recipes that are both satisfying and supportive of your weight loss goals. These recipes are designed to be healthy and delicious.",
     },
 ]
