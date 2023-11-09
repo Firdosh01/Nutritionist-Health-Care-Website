@@ -33,23 +33,23 @@ export default function Contact() {
             </p>
           </div>
 
-          <div className="flex items-center justify-center mt-10 bg-[#1A3129]  gap-5 p-5 text-[#fff] rounde-xl">
-            <div className="flex flex-col  p-7 bg-[#234338] items-center justify-center border-2 border-[#2C5446] rounded-md">
+          <div className="flex md:flex-row flex-col items-center justify-center mt-10 bg-[#1A3129]  gap-5 p-5 text-[#fff] rounde-xl">
+            <div className="flex flex-col  p-7 bg-[#234338] items-center justify-center border-2 border-[#2C5446] rounded-md  md:w-full w-[250px]">
               <img src={mailIcon} alt="" className="w-[34px]" />
               <span>support@nutritionist.com</span>
             </div>
-            <div className="flex flex-col items-center p-7 bg-[#234338] justify-center border-2 border-[#2C5446] rounded-md">
+            <div className="flex flex-col items-center p-7 bg-[#234338] justify-center border-2 border-[#2C5446] rounded-md md:w-full w-[250px]">
               <img src={callIcon} alt="" className="w-[34px]" />
               <span>+91 00000 00000</span>
             </div>
-            <div className="flex flex-col items-center p-7 bg-[#234338] justify-center border-2 border-[#2C5446] rounded-md">
+            <div className="flex flex-col items-center p-7 bg-[#234338] justify-center border-2 border-[#2C5446] rounded-md md:w-full w-[250px]">
               <img src={addressIcon} alt="" className="w-[34px]" />
               <span>Some Where in the World</span>
             </div>
           </div>
         </div>
 
-        <div className="bg-[#F6FBE9] p-20 rounded-xl border border-[#E5F5BD] my-9 flex md:flex-row flex-col justify-between gap-12">
+        <div className="bg-[#F6FBE9] md:p-20 p-5 rounded-xl border border-[#E5F5BD] my-9 flex md:flex-row flex-col justify-between gap-12">
           <form className="flex flex-col gap-7 w-[100%] md:w-[50%]">
             <div className="flex flex-col md:flex-row gap-7">
               <div className="flex flex-col">
@@ -104,9 +104,6 @@ export default function Contact() {
           <div className="md:w-[50%] w-[100%]">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d484692.85637829395!2d76.76835499514529!3d28.63698185956627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1699440745243!5m2!1sen!2sin"
-              // width="500"
-              // height="350"
-              // style="border:0;"
               className="w-[100%] h-[100%]"
               allowfullscreen=""
               loading="lazy"
