@@ -15,8 +15,8 @@ export default function Story() {
     <div>
       <div className="py-5">
         <div className="flex flex-col items-center md:flex-row ">
-          <div className="md:w-[50%]   ">
-            <img src={sImg10} alt="" />
+          <div className="md:w-[50%]">
+            <img src={sImg10} alt="" loading="lazy" />
           </div>
 
           <div className="p-5 md:w-[50%] ">
@@ -50,13 +50,13 @@ export default function Story() {
           </div>
 
           <div className="md:w-[50%] ">
-            <img src={sImg1} alt="" className="" />
+            <img src={sImg1} alt="" loading="lazy"/>
           </div>
         </div>
 
         <div className="flex flex-col items-center md:flex-row">
           <div className="md:w-[50%]">
-            <img src={sImg2} alt="" />
+            <img src={sImg2} alt="" loading="lazy"/>
           </div>
           <div className="p-5 md:w-[50%] ">
             <h3 className="text-xl font-semibold border-b-2 w-fit  leading-10 border-b-[#CBEA7B]">
@@ -88,13 +88,13 @@ export default function Story() {
           </div>
 
           <div className="md:w-[50%] ">
-            <img src={sImg3} alt="" className="" />
+            <img src={sImg3} alt="" loading="lazy" />
           </div>
         </div>
 
         <div className="flex flex-col items-center md:flex-row ">
           <div className="md:w-[50%]">
-            <img src={sImg4} alt="" />
+            <img src={sImg4} alt="" loading="lazy"/>
           </div>
           <div className="p-5 md:w-[50%] ">
             <h3 className="text-xl font-semibold border-b-2 w-fit  leading-10 border-b-[#CBEA7B]">
@@ -125,13 +125,13 @@ export default function Story() {
           </div>
 
           <div className="md:w-[50%] ">
-            <img src={sImg5} alt="" className="" />
+            <img src={sImg5} alt="" className="" loading="lazy"/>
           </div>
         </div>
 
         <div className="flex flex-col items-center md:flex-row">
           <div className="md:w-[50%]">
-            <img src={sImg6} alt="" />
+            <img src={sImg6} alt="" loading="lazy" />
           </div>
           <div className="p-5 md:w-[50%] ">
             <h3 className="text-xl font-semibold border-b-2 w-fit  leading-10 border-b-[#CBEA7B]">
@@ -162,13 +162,13 @@ export default function Story() {
           </div>
 
           <div className="md:w-[50%] ">
-            <img src={sImg7} alt="" className="" />
+            <img src={sImg7} alt="" className="" loading="lazy" />
           </div>
         </div>
 
         <div className="flex flex-col items-center md:flex-row">
           <div className="md:w-[50%]">
-            <img src={sImg8} alt="" />
+            <img src={sImg8} alt="" loading="lazy" />
           </div>
           <div className="p-5 md:w-[50%] ">
             <h3 className="text-xl font-semibold border-b-2 w-fit  leading-10 border-b-[#CBEA7B]">
@@ -201,7 +201,7 @@ export default function Story() {
           </div>
 
           <div className="md:w-[50%] ">
-            <img src={sImg9} alt="" className="" />
+            <img src={sImg9} alt="" loading="lazy"/>
           </div>
         </div>
       </div>

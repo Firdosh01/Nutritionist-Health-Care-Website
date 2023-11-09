@@ -12,10 +12,10 @@ export default function Blog() {
           <div className="flex items-center justify-center mt-5">
             <div className="relative ">
               <div>
-                <img src={Frame} alt="" />
+                <img src={Frame} alt="" loading="lazy" />
               </div>
               <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-[#CBEA7B] p-2 rounded-xl">
-                <img src={icon1} alt="" />
+                <img src={icon1} alt="" loading="lazy" />
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ export default function Blog() {
                   <div className="p-5">
                     <span className=" border-b-2 border-b-[#CBEA7B] py-1 font-semibold ">{blogPage.heading}</span>
                     <div className="py-3">
-                      <img src={blogPage.image} alt="" />
+                      <img src={blogPage.image} alt="" loading="lazy" />
                     </div>
                     <div className="flex flex-col items-start justify-between gap-5 md:items-center md:flex-row">
                       <div className="md:max-w-[70%]">

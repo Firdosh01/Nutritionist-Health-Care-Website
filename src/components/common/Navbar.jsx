@@ -14,7 +14,7 @@ export default function Navbar() {
           <Link to="/">
             <div className="flex items-center gap-2">
               <img src={Frame} alt="" className="w-[45px] h-[45px]" />
-              <img src={Nutritionist} alt="" className="w-[140px] h-[16px] " />
+              <img src={Nutritionist} alt="" className="w-[140px] h-[16px]" loading="lazy" />
             </div>
           </Link>
 

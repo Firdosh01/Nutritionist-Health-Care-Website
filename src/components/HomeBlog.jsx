@@ -6,11 +6,11 @@ export default function HomeBlog() {
     <div>
       <div>
         <div className="grid grid-cols-1 gap-3 py-10 md:grid-cols-2">
-          {BlogCard.map((blog) => {
+          {BlogCard.map((blog, index) => {
             return (
-              <div className="flex flex-col bg-[#F6FBE9] overflow-hidden rounded-xl border border-[#E5F5BD] ">
+              <div key={index} className="flex flex-col bg-[#F6FBE9] overflow-hidden rounded-xl border border-[#E5F5BD] ">
                 <div>
-                  <img src={blog.img} alt="" />
+                  <img src={blog.img} alt="" loading="lazy" />
                 </div>
                 <div className="px-4 py-5 ">
                   <div>
@@ -29,11 +29,11 @@ export default function HomeBlog() {
                       </div>
                       <div className="flex items-center justify-end gap-1 mt-3 md:mt-0">
                         <div className="bg-[#F6FBE9] border border-[#EEF8D3] p-2 rounded-sm">
-                          <img src={blog.loveIcon} alt="" />
+                          <img src={blog.loveIcon} alt="" loading="lazy" />
                         </div>
 
                         <div className="bg-[#F6FBE9] border border-[#EEF8D3] p-2 rounded-sm">
-                          <img src={blog.cart} alt="" />
+                          <img src={blog.cart} alt="" loading="lazy"/>
                         </div>
                       </div>
                     </div>

@@ -9,7 +9,7 @@ export default function About() {
     <div>
       <div className="w-11/12 max-w-screen-xl px-5 mx-auto">
         <div className="py-5">
-          <img src={AboutFrame} alt="" />
+          <img src={AboutFrame} alt="" loading="lazy" />
         </div>
         <div className="flex flex-col items-center justify-center text-center">
           <h1 className="py-5 text-5xl font-semibold ">

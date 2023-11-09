@@ -20,6 +20,7 @@ export default function Home() {
               src={heroImg}
               alt=""
               className=" w-[600px] h-[500px] object-cover rounded-br-3xl"
+              loading='lazy'
             />
           </div>
 

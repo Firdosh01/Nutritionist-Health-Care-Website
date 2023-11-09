@@ -67,7 +67,7 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-1 text-[#fff]  border border-[#2C5446] p-3 rounded-md">
               <img src={callIcon} alt="" />
-              <p>+91 91813 23 2309</p>
+              <p>+91 00000 00000</p>
             </div>
             <div className="flex items-center gap-1 text-[#fff]  border border-[#2C5446] p-3 rounded-md">
               <img src={addressIcon} alt="" />
