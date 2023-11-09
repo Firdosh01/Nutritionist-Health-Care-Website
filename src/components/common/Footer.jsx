@@ -39,7 +39,9 @@ export default function Footer() {
                 );
               })}
               <li className="text-[16px]  font-medium text-[#FAFDF2]">
+                <NavLink to="/Contact">
                 Contact Us
+                </NavLink>
               </li>
             </ul>
           </div>
