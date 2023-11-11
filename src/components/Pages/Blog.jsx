@@ -52,7 +52,7 @@ export default function Blog() {
             {
               BlogPage.map((blogPage) => (
                 <div>
-                  <div className="p-5">
+                  <div className="p-5" data-aos="fade-up">
                     <span className=" border-b-2 border-b-[#CBEA7B] py-1 font-semibold ">{blogPage.heading}</span>
                     <div className="py-3">
                       <img src={blogPage.image} alt="" loading="lazy" />

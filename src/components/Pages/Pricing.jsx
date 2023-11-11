@@ -53,7 +53,7 @@ export default function Pricing() {
           <p className="py-5">Save 50% on Yearly</p>
         </div>
 
-        <div className="grid grid-cols-1 gap-5 py-5 lg:grid-cols-3 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-5 py-5 lg:grid-cols-3 md:grid-cols-2" data-aos="zoom-in-right">
           <div className="bg-[#F6FBE9] rounded-xl p-5 border border-[#DCF1A7]  h-fit">
             <div>
               <h3 className="py-1 text-xl font-semibold">Basic Plan</h3>
@@ -92,7 +92,7 @@ export default function Pricing() {
             <CTABtn children={"Choose Plan"} active={true} />
           </div>
 
-          <div className="bg-[#F6FBE9] rounded-xl p-5 border border-[#DCF1A7] h-fit">
+          <div className="bg-[#F6FBE9] rounded-xl p-5 border border-[#DCF1A7] h-fit" >
             <div>
               <h3 className="py-1 text-xl font-semibold">Premium Plan</h3>
               <span className="">Up to 50% off on Yearly Plan</span>
@@ -186,7 +186,7 @@ export default function Pricing() {
           </div>
 
           <div className="flex flex-col items-center justify-between gap-5 py-10 md:flex-row md:items-start ">
-            <div className="flex flex-col md:max-w-[65%] max-w-[100%]  bg-[#F6FBE9] p-5 border border-[#E5F5BD] rounded-xl">
+            <div className="flex flex-col md:max-w-[65%] max-w-[100%]  bg-[#F6FBE9] md:p-5 p-3 border border-[#E5F5BD] rounded-xl" data-aos="zoom-out-right">
               {Faq.map((faq, index) => (
                 <div className="flex " key={faq.id}>
                   <div className="py-3">
@@ -215,7 +215,7 @@ export default function Pricing() {
               ))}
             </div>
 
-            <div className="bg-[#F6FBE9] border border-[#E5F5BD] rounded-xl w-fit p-5 h-fit flex flex-col justify-center items-center">
+            <div className="bg-[#F6FBE9] border border-[#E5F5BD] rounded-xl w-fit md:p-5 p-3 h-fit flex flex-col justify-center items-center" data-aos="zoom-out-left">
               <img src={FrameImg} alt="" className="w-[120px]" />
               <h1 className="text-xl font-semibold text-[#262626] py-3">
                 Ask your question

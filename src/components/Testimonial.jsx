@@ -21,7 +21,7 @@ export default function Testimonial() {
         <div className="hidden grid-cols-3 gap-5 py-5 sm:grid ">
           {TestimonialCard.slice(currentSlide, currentSlide + 3).map(
             (Testimonial, index) => (
-              <div key={index} className="px-3 py-2 bg-[#F6FBE9] rounded-xl border border-[#EEF8D3]">
+              <div key={index} className="px-3 py-2 bg-[#F6FBE9] rounded-xl border border-[#EEF8D3]" data-aos="zoom-in-left">
                 <div className="flex flex-col">
                   <img src={Testimonial.icon} alt="" className=" w-[30px]" />
                   <p className="py-4 text-xs">{Testimonial.desc}</p>
@@ -40,7 +40,7 @@ export default function Testimonial() {
         <div className="grid grid-cols-1 gap-5 py-5 sm:hidden">
           {TestimonialCard.slice(currentSlide, currentSlide + 1).map(
             (Testimonial) => (
-              <div className="px-3 py-2 bg-[#F6FBE9] rounded-2xl border border-[#EEF8D3]">
+              <div className="px-3 py-2 bg-[#F6FBE9] rounded-2xl border border-[#EEF8D3]"  data-aos="zoom-in-left">
                 <div className="flex flex-col">
                   <img src={Testimonial.icon} alt="" className=" w-[30px]" />
                   <p className="py-4 text-xs">{Testimonial.desc}</p>

@@ -15,7 +15,7 @@ export default function Home() {
       <div className="w-11/12 max-w-screen-xl px-5 mx-auto ">
         <div className="flex flex-col items-center justify-between gap-3 md:flex-row">
           
-          <div className="md:w-[50%]">
+          <div className="md:w-[50%] text-focus-in">
             <img
               src={heroImg}
               alt=""
@@ -24,7 +24,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="md:w-[50%] text-center md:text-left">
+          <div className="md:w-[50%] text-center md:text-left bounce-top ">
             <span>Transform Your ❤️ Health with</span>
             <h1 className="py-4 text-5xl font-semibold ">Personalized Nutrition Coaching</h1>
             <p className=" md:max-w-[700px] mb-5">
@@ -58,7 +58,7 @@ export default function Home() {
         {/* feature section  */}
 
         <div className="px-4 py-10">
-          <div className="text-center">
+          <div className="text-center" data-aos="flip-up">
           <h1 className="py-2 text-5xl font-semibold ">Features</h1>
           <p className="text-base font-medium text-[#333]">
           Welcome to the Feature Section of Nutritionist, your ultimate destination for all things nutrition and wellness.
@@ -70,7 +70,7 @@ export default function Home() {
         {/* blog section  */}
         
         <div className="px-4 py-10">
-          <div className="flex flex-col items-center justify-center text-center">
+          <div className="flex flex-col items-center justify-center text-center" data-aos="flip-up">
           <h1 className="py-2 text-5xl font-semibold ">Our Blogs</h1>
           <p className="text-base font-medium text-[#333]  md:max-w-[800px] ">
           Our blog is a treasure trove of informative and engaging articles written by our team of nutritionists, dietitians, and wellness experts. Here's what you can expect from our blog.
@@ -82,7 +82,7 @@ export default function Home() {
         {/* testimonials section  */}
         
         <div className="px-4 py-10">
-          <div className="flex flex-col items-center justify-center text-center">
+          <div className="flex flex-col items-center justify-center text-center" data-aos="flip-up">
           <h1 className="py-2 text-5xl font-semibold ">Our Testimonials</h1>
           <p className="text-base font-medium text-[#333]">
           Our satisfied clients share their success stories and experiences on their journey to better health and well-being.
@@ -94,7 +94,7 @@ export default function Home() {
         {/* our pricing section  */}
 
         <div className="px-4 py-10">
-          <div className="flex flex-col items-center justify-center text-center">
+          <div className="flex flex-col items-center justify-center text-center" data-aos="flip-up">
           <h1 className="py-2 text-5xl font-semibold ">Our Pricing</h1>
           <p className="text-base font-medium text-[#333]  max-w-[800px]">
           We outline our flexible and affordable options to support you on your journey to optimal health and nutrition. We believe that everyone deserves access to personalized nutrition guidance and resources

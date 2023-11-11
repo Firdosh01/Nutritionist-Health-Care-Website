@@ -46,8 +46,8 @@ export default function Team() {
           </div>
         </div>
 
-        <div className="grid items-center gap-12 py-5 md:grid-cols-4 sm:grid-cols-2 md:gap-5">
-          <div className="relative ">
+        <div className="grid items-center gap-12 py-5 md:grid-cols-4 sm:grid-cols-2 md:gap-5" data-aos="zoom-in-up">
+          <div className="relative " >
             <img src={mitchell} alt="" />
             <div className=" absolute -bottom-[20px] left-0 bg-[#F6FBE9]  p-5">
               <span className="text-lg font-semibold">Sarah Mitchell</span>

@@ -8,11 +8,11 @@ export default function HomeBlog() {
         <div className="grid grid-cols-1 gap-3 py-10 md:grid-cols-2">
           {BlogCard.map((blog, index) => {
             return (
-              <div key={index} className="flex flex-col bg-[#F6FBE9] overflow-hidden rounded-xl border border-[#E5F5BD] ">
+              <div key={index} className="flex flex-col bg-[#F6FBE9] overflow-hidden rounded-xl border border-[#E5F5BD]" data-aos="fade-up">
                 <div>
                   <img src={blog.img} alt="" loading="lazy" />
                 </div>
-                <div className="px-4 py-5 ">
+                <div className="p-3 md:p-5">
                   <div>
                     <span>{blog.text}</span>
                     <h3 className="text-xl font-semibold">{blog.heading}</h3>

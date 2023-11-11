@@ -42,7 +42,7 @@ export default function About() {
         {/* Our story section  */}
 
         <div className="px-4 py-10">
-          <div className="text-center">
+          <div className="text-center" data-aos="flip-up">
             <h1 className="py-2 text-5xl font-semibold ">Our Story</h1>
             <p className="text-base font-medium text-[#333]">
               Welcome to Nutritionist, your partner in achieving optimal health
@@ -54,7 +54,7 @@ export default function About() {
         </div>
 
         <div className="px-4 py-10">
-          <div className="flex flex-col items-center justify-center text-center">
+          <div className="flex flex-col items-center justify-center text-center" data-aos="flip-up">
             <h1 className="py-2 text-5xl font-semibold ">
               Company Achievements
             </h1>

@@ -14,7 +14,7 @@ export default function Story() {
   return (
     <div>
       <div className="py-5">
-        <div className="flex flex-col items-center md:flex-row ">
+        <div className="flex flex-col items-center md:flex-row" data-aos="zoom-out-right">
           <div className="md:w-[50%]">
             <img src={sImg10} alt="" loading="lazy" />
           </div>
@@ -35,7 +35,7 @@ export default function Story() {
           </div>
         </div>
 
-        <div className="flex flex-col-reverse items-center md:flex-row">
+        <div className="flex flex-col-reverse items-center md:flex-row"  data-aos="zoom-out-left">
           <div className="p-5 md:w-[50%] flex flex-col  md:items-end">
             <h3 className="text-xl font-semibold  border-b-2 w-fit  leading-10 border-b-[#CBEA7B]">
               Recognition and Accolades Story
@@ -54,7 +54,7 @@ export default function Story() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center md:flex-row">
+        <div className="flex flex-col items-center md:flex-row"  data-aos="zoom-out-right">
           <div className="md:w-[50%]">
             <img src={sImg2} alt="" loading="lazy"/>
           </div>
@@ -72,7 +72,7 @@ export default function Story() {
           </div>
         </div>
 
-        <div className="flex flex-col-reverse items-center md:flex-row">
+        <div className="flex flex-col-reverse items-center md:flex-row" data-aos="zoom-out-left">
           <div className="p-5 md:w-[50%] flex flex-col  md:items-end">
             <h3 className="text-xl font-semibold  border-b-2 w-fit  leading-10 border-b-[#CBEA7B]">
               Collaborating for Success Story
@@ -92,7 +92,7 @@ export default function Story() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center md:flex-row ">
+        <div className="flex flex-col items-center md:flex-row" data-aos="zoom-out-right">
           <div className="md:w-[50%]">
             <img src={sImg4} alt="" loading="lazy"/>
           </div>
@@ -110,7 +110,7 @@ export default function Story() {
           </div>
         </div>
 
-        <div className="flex flex-col-reverse items-center md:flex-row">
+        <div className="flex flex-col-reverse items-center md:flex-row"  data-aos="zoom-out-left">
           <div className="p-5 md:w-[50%] flex flex-col md:items-end">
             <h3 className="text-xl font-semibold  border-b-2 w-fit  leading-10 border-b-[#CBEA7B]">
               Innovating for Clients Story
@@ -129,7 +129,7 @@ export default function Story() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center md:flex-row">
+        <div className="flex flex-col items-center md:flex-row"  data-aos="zoom-out-right">
           <div className="md:w-[50%]">
             <img src={sImg6} alt="" loading="lazy" />
           </div>
@@ -147,7 +147,7 @@ export default function Story() {
           </div>
         </div>
 
-        <div className="flex flex-col-reverse items-center md:flex-row">
+        <div className="flex flex-col-reverse items-center md:flex-row"  data-aos="zoom-out-left">
           <div className="p-5 md:w-[50%] flex flex-col md:items-end">
             <h3 className="text-xl font-semibold  border-b-2 w-fit  leading-10 border-b-[#CBEA7B]">
               Expanding Reach Story
@@ -166,7 +166,7 @@ export default function Story() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center md:flex-row">
+        <div className="flex flex-col items-center md:flex-row"  data-aos="zoom-out-right">
           <div className="md:w-[50%]">
             <img src={sImg8} alt="" loading="lazy" />
           </div>
@@ -185,7 +185,7 @@ export default function Story() {
           </div>
         </div>
 
-        <div className="flex flex-col-reverse items-center md:flex-row">
+        <div className="flex flex-col-reverse items-center md:flex-row"  data-aos="zoom-out-left">
           <div className="p-5 md:w-[50%] flex flex-col  md:items-end">
             <h3 className="text-xl font-semibold  border-b-2 w-fit  leading-10 border-b-[#CBEA7B]">
               The Inception Story

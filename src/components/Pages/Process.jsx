@@ -36,7 +36,7 @@ export default function Process() {
         </div>
 
         <div className="px-4 py-10">
-          <div className="flex flex-col items-center justify-center text-center">
+          <div className="flex flex-col items-center justify-center text-center" data-aos="flip-up">
             <h1 className="py-2 text-5xl font-semibold ">How It Works</h1>
             <p className="text-base font-medium text-[#333] max-w-[800px]">
               We provide a step-by-step guide on how to get started on your
@@ -52,11 +52,11 @@ export default function Process() {
               return (
                 <>
                   <div>
-                    <div className="z-0 ">
+                    <div className="z-0 " data-aos="fade-up">
                       <h1 className="text-8xl text-[#468671] font-semibold  z-10 ">
                         {proces.num}
                       </h1>
-                      <div className="-mt-10 bg-[#F6FBE9] p-5 z-20 rounded-xl">
+                      <div className="-mt-10 bg-[#F6FBE9] md:p-5 p-3 z-20 rounded-xl">
                         <div className="flex items-center gap-2 py-5">
                           <div className="bg-[#CBEA7B] rounded p-2">
                             <img src={proces.icon} alt="" />
