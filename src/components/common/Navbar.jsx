@@ -52,14 +52,14 @@ export default function Navbar() {
           {/* <div> */}
             {nav && (
               <ul
-                className={`absolute top-0 ${
-                  nav ? "right-0" : "-right-[100%]"
-                } duration-300 z-10 flex flex-col items-center w-full h-screen py-[60px] px-[30px] gap-3 bg-white justify-center`}
+                className={` fixed top-0 ${
+                  nav ? "right-0 " : "-right-[100%]"
+                }  z-10 flex flex-col items-center w-full h-screen py-[60px] px-[30px] gap-3 bg-white justify-center `}
               >
                 {navigation.map((nav) => {
                   return (
                     <li
-                      className="fle text-[16px]  font-medium text-black"
+                      className="text-3xl font-medium text-black"
                       key={nav.id}
                     >
                       <Link onClick={() => setNav(!nav)} to={nav.link} smooth duration={500}>{nav.nav}</Link>
